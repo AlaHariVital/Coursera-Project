@@ -1,0 +1,96 @@
+*,
+::after,
+::before{
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(12, 12, 12);
+}
+.wrapper{
+    width: 1000px;
+    margin:0 auto;
+}
+header{
+    margin: 2rem auto;
+    text-align:center; 
+    padding:1rem;  
+}
+header img{
+    height: 8rem;
+}
+nav{
+    width:100%;
+    border-bottom: 1px solid rgb(168, 167, 167);
+    border-top: 1px solid rgb(183, 182, 182);
+    margin-bottom: 2rem;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    padding:0 3rem;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:1.5rem;
+}
+main .adve{
+    height: 20rem;
+    background-image: url("images&logos/add-background.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+main .adve h1{
+    color:rgb(243, 205, 205);
+    position: absolute;
+    font-size: 3rem;
+    left: 50rem;
+    top: 3rem;
+}
+main .adve small{
+    position: absolute;
+    color:rgb(152, 149, 149);
+    top:90%;
+    left:90%;
+}
+main .articles{
+    margin: 1rem auto;
+    display:flex;
+    justify-content: space-between;
+}
+main .articles article{
+    background:rgb(190, 189, 189);
+    border-radius: .2rem;
+    text-align: center;
+    width: 30%; 
+}
+article h1 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+article img {
+    width: 80%;
+    height: 10rem;
+}
+
+article p {
+    font-size: .9rem;
+    color: #666;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+footer img{
+    height: 1.3rem;
+}
+footer p{
+    color: white;
+}
+
